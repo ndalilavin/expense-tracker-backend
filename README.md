@@ -1,5 +1,6 @@
 # Expense Tracker App - Back-End
 
+Author: Vinson
 ## About
 This is the back-end server for the expese tracker app and is deployed on Heroku.
 The APIs are: https://intense-woodland-12077.herokuapp.com/balance and https://intense-woodland-12077.herokuapp.com/transaction_history
