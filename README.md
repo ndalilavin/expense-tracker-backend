@@ -1,4 +1,8 @@
-# JSON Server Template
+# Expense Tracker App - Back-End
+
+## About
+This is the back-end server for the expese tracker app and is deployed on Heroku.
+The APIs are: https://intense-woodland-12077.herokuapp.com/balance and https://intense-woodland-12077.herokuapp.com/transaction_history
 
 ## Setup
 
@@ -14,22 +18,15 @@ To set up your database, update the `db/seeds.json` file to contain an object
 with a key pointing to an array of data, like this:
 
 ```json
+
 {
-  "toys": [
-    {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
-    },
-    {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
-    }
-  ]
+  "id": 7,
+  "first name": "John",
+  "last Name": "Maina",
+  "income": 0,
+  "expenses": 0
 }
+
 ```
 
 Then, run `npm run seed` to copy data from the `db/seeds.json` file to the
